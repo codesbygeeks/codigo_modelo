@@ -11,12 +11,14 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 /**
  * Index routes
  */
 Route::get('/', 'IndexController@index');
-Route::get('/steps', 'IndexController@steps');
+
+/**
+ * Steps test
+ */
+Route::get('/steps', function () {
+    return view('steps');
+});

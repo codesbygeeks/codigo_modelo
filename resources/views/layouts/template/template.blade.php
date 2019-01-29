@@ -7,13 +7,13 @@
 
   <title>@yield('title')</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-4.2.1.min.css">
 
   @yield('css')
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper-1.14.6.min.js"></script>
+  <script src="js/bootstrap-4.2.1.min.js"></script>
 </head>
 <body>
 
@@ -26,6 +26,6 @@
     @yield('js')
 
   </div>
-  
+
 </body>
 </html>
