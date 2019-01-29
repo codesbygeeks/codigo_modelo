@@ -55,6 +55,16 @@ return [
             'visibility' => 'public',
         ],
 
+        'input' => [
+            'driver' => 'local',
+            'root' => realpath(getHomepath().'/data/in'),
+        ],
+
+        'output' => [
+            'driver' => 'local',
+            'root' => realpath(getHomepath().'/data/out'),
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
