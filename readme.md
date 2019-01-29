@@ -1,4 +1,4 @@
-# Sistema gerador de relatórios a partir de arquivos .dat
+# Código modelo para desenvolvimento de sistemas
 
 ## Dependências
 
