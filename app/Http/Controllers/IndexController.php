@@ -10,4 +10,9 @@ class IndexController extends Controller
     {
         return view('index');
     }
+
+    public function steps()
+    {
+        return view('steps');
+    }
 }

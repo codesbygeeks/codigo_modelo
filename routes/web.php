@@ -19,3 +19,4 @@
  * Index routes
  */
 Route::get('/', 'IndexController@index');
+Route::get('/steps', 'IndexController@steps');
