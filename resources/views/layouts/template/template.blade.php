@@ -14,6 +14,9 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper-1.14.6.min.js"></script>
   <script src="js/bootstrap-4.2.1.min.js"></script>
+
+  @yield('js-head')
+
 </head>
 <body>
 
@@ -23,7 +26,7 @@
 
     @yield('content')
 
-    @yield('js')
+    @yield('js-body')
 
   </div>
 

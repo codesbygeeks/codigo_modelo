@@ -20,5 +20,5 @@ Route::get('/', 'IndexController@index');
  * Steps test
  */
 Route::get('/steps', function () {
-    return view('steps');
+    return view('steps.steps');
 });
